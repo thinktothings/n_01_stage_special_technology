@@ -1,0 +1,14 @@
+
+).修改 jetty 默认端口 8080(以防该端口号被其它web服务器占用)
+).修改文件 $JETTY_HOME/start.ini
+	# jetty.http.port=8080
+	jetty.http.port=8888
+).启动jetty 服务器
+   $JETTY_HOME/bin/jetty.sh start
+   访问地址:http://c0:8888
+).部署web 项目
+).上传war 包的web 项目到 $JETTY_HOME/webapps
+  解压war包   jar -xvf project.war  -C ./project
+).访问web项目  
+  http://c0:8888/project
+	

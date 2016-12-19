@@ -1,0 +1,5 @@
+).在 intellij idea 先安装 jetty runner 插件
+
+).图形界面启动服务器
+ 
+).每次更改jsp页面，自动编译   

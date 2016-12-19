@@ -1,0 +1,7 @@
+
+【操作步骤】
+).不需要配置外边的tomcat
+).选中 Edit Configurators ==> + ==> Maven ==> 
+   Name: maven_tomcat
+   Parameter ==> Command line: tomcat:run -Dmaven.tomcat.port=8018
+).点击Debug按钮，就debgug启来了，控制台有url访问路径输出   

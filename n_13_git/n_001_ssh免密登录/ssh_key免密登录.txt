@@ -1,0 +1,17 @@
+
+git clone https://git.oschina.net/opensourceteams/n_01_stage_special_technology.git
+git config --global user.name "thinktothings"
+git config --global user.email "thinktothings@163.com"
+
+
+【ssh 免密登录】
+).安装git，从程序目录打开 "Git Bash" 
+).键入命令：ssh-keygen -t rsa -C "thinktothings@163.com"
+  "thinktothings@163.com"是gitlab账号
+).复制内容C:\Users\hadoop\.ssh\id_rsa.pub
+ 到在gitlab.com的网站上到ssh密钥管理页面，添加新公钥
+ 
+).git bash 执行
+  ssh -T git@git.oschina.net
+  若返回:Welcome to Git@OSC, yourname! 
+  则证明添加成功。

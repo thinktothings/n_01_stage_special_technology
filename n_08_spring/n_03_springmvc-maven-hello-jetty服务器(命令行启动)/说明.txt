@@ -1,0 +1,6 @@
+).启动服务器
+  mvn jetty:run
+).mvn compile 
+   每次改java文件，需要手动执行一次编译命令
+   或者快捷键来重新编译:Fn + Shift + Ctrl + F9
+).每次更改jsp页面，自动编译   

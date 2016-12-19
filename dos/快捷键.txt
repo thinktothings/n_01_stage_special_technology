@@ -1,0 +1,3 @@
+
+Ctrl + Insert  :复制(命令行)
+Shift + Insert : 粘贴(命令行)

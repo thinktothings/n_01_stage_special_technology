@@ -1,0 +1,8 @@
+
+
+).   /registerServlet
+注解方式配置servlet
+
+).  /registerServlet2
+
+web.xml中通过配置文件配置servlet

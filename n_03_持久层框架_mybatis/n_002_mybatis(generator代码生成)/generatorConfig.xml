@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+    <classPathEntry
+            location="C:\Users\hadoop\.m2\repository\mysql\mysql-connector-java\5.1.40\mysql-connector-java-5.1.40.jar" />
+    <context id="context1" targetRuntime="MyBatis3">
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/tht?useUnicode=true&amp;characterEncoding=utf8&amp;autoReconnect=true"
+                        userId="root" password="000000" />
+        <javaModelGenerator targetPackage="com.opensourceteam.spring.mvc.business.model"
+                            targetProject="D:\workspaces\intellij_all\n_06_springmvc-freemarker-maven\src\main\java" />
+        <sqlMapGenerator targetPackage="com.opensourceteam.spring.mvc.business.persistence"
+                         targetProject="D:\workspaces\intellij_all\n_06_springmvc-freemarker-maven\src\main\resources" />
+        <javaClientGenerator targetPackage="com.opensourceteam.spring.mvc.business.persistence"
+            targetProject="D:\workspaces\intellij_all\n_06_springmvc-freemarker-maven\src\main\java"  type="XMLMAPPER"  />
+        <table schema="th" tableName="user" />
+
+    </context>
+</generatorConfiguration>

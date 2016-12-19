@@ -1,0 +1,7 @@
+).后台管理界面
+
+http://localhost:8080/project/console/b.jsp
+
+).登录界面
+
+http://localhost:8080/project/login.jsp
